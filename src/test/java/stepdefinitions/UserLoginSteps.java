@@ -13,7 +13,7 @@ public class UserLoginSteps {
     private WebDriver driver;
     @Given("the user is on the home page")
     public void userIsOnHomePage() {
-        System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("URL_of_home_page");
     }
