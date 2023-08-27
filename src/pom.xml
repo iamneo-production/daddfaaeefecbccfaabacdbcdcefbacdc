@@ -53,4 +53,15 @@
             </plugins>
         </pluginManagement>
     </build>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-buffer</artifactId>
+                <version>4.1.60.Final</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
